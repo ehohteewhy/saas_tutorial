@@ -17,7 +17,21 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
  
+body, .navbar{
+  //generated using uiGradients.com   
+   background: #ee0979; /* fallback for old browsers */
+   background: -webkit-linear-gradient(to left, #ee0979 , #ff6a00); /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to left, #ee0979 , #ff6a00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+           
+ }
+ 
+ .navbar{
+  font: color "white";
+   border: none;
+ }
+
  
  h1, h2, h3 {
      font-family: 'Merriweather', serif;
  }
+
