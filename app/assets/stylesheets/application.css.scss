@@ -17,16 +17,23 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
  
-body, .navbar{
-  //generated using uiGradients.com   
+.navbar, .home-pop{
+  // "Ibizia Sunset" generated using uiGradients.com   
    background: #ee0979; /* fallback for old browsers */
    background: -webkit-linear-gradient(to left, #ee0979 , #ff6a00); /* Chrome 10-25, Safari 5.1-6 */
    background: linear-gradient(to left, #ee0979 , #ff6a00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
            
  }
  
+ .home-pop{
+   color:white;
+   margin-top:-20px;
+   padding-top:25px;
+   padding-bottom:75px;
+   ;
+  }
+ 
  .navbar{
-  font: color "white";
    border: none;
  }
 
