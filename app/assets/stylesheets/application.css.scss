@@ -37,29 +37,29 @@
    ;
   }
   
- //Navbar brand text section is controlled both by .navbar-brand and .navbar-default rules
- .navbar-default .navbar-brand { 
+ //Navbar brand text section is controlled both by .navbar-brand and .navbar-default rules. Need to identify even more specifically for the About text
+ //CSS way to do it. Sass gives further ability to nest which is what is used after this to be even cleaner in writing
+// .navbar-default .navbar-brand, 
+// .navbar-default .navbar-nav > li > a { 
+//   color:white;
+// }
+
+// .navbar-default .navbar-brand:hover, 
+// .navbar-default .navbar-nav > li > a:hover { 
+//   color:white;
+//   opacity: .75;
+// }
+
+.navbar-default .navbar-brand, 
+.navbar-default .navbar-nav > li > a { 
   color:white;
+  &:hover{
+    color:white;
+    opacity:.75;
+  }
  }
 
- .navbar-default .navbar-brand:hover { 
-  color:white;
-  opacity: .75;
- }
-
-
- //need to identify even more specifically for the About text
-.navbar-default .navbar-nav > li > a {
-  color: white;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-  color: white;
-  opacity:.75;
-  
-}
- 
- h1, h2, h3 {
+h1, h2, h3 {
      font-family: 'Merriweather', serif;
  }
 
