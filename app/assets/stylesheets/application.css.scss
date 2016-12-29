@@ -17,6 +17,10 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
  
+ @import 'font-awesome-sprockets';
+ @import 'font-awesome';
+ 
+ 
 .navbar, .home-pop{
   // "Ibizia Sunset" generated using uiGradients.com   
    background: #ee0979; /* fallback for old browsers */
@@ -59,6 +63,7 @@
   }
  }
 
+// Text style
 h1, h2, h3 {
      font-family: 'Merriweather', serif;
  }
