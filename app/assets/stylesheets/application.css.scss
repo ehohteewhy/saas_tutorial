@@ -21,6 +21,14 @@
  @import 'font-awesome';
  
  
+.home-pop{
+   color:white;
+   margin-top:-20px;
+   padding-top:25px;
+   padding-bottom:75px;
+   ;
+}
+
 .navbar, .home-pop{
   // "Ibizia Sunset" generated using uiGradients.com   
    background: #ee0979; /* fallback for old browsers */
@@ -28,19 +36,19 @@
    background: linear-gradient(to left, #ee0979 , #ff6a00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
            
  }
- 
- .navbar{
-   border:none;
+
+
+// Text style
+h1, h2, h3, {
+     font-family: 'Merriweather', serif;
  }
- 
- .home-pop{
-   color:white;
-   margin-top:-20px;
-   padding-top:25px;
-   padding-bottom:75px;
-   ;
-  }
-  
+
+// Navbar style
+
+.navbar{
+   border:none;
+}
+
  //Navbar brand text section is controlled both by .navbar-brand and .navbar-default rules. Need to identify even more specifically for the About text
  //CSS way to do it. Sass gives further ability to nest which is what is used after this to be even cleaner in writing
 // .navbar-default .navbar-brand, 
@@ -63,8 +71,21 @@
   }
  }
 
-// Text style
-h1, h2, h3 {
-     font-family: 'Merriweather', serif;
- }
+.navbar-brand{
+  font-family:'Merriweather', serif;
+  font-weight:900;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color:white;
+}
+
+.navbar-default .navbar-toggle{
+  border:5px solid white;
+  &:hover,:focus{
+    background-color: #ff6a00;
+  }
+}
+
+
 
