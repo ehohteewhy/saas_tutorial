@@ -44,6 +44,9 @@ gem 'devise', '4.2.0'
 #Using Swipe for credit card processing
 gem 'stripe', '1.48.0'
 
+#Using Figaro for ENV variables to securely protect API keys
+gem 'figaro', '1.1.1'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
